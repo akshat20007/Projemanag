@@ -46,7 +46,16 @@
                 android:textSize="@dimen/item_board_created_by_text_size"
                 tools:text="Created By"/>
         </LinearLayout>
+
+
     </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_board_divider_height"
+        android:background="@color/divider_color"
+        android:layout_marginTop="@dimen/item_board_divider_marginTop"/>
+
 
 
 
